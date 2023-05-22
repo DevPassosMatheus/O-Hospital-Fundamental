@@ -25,3 +25,9 @@ Abaixo, segue a modelagem conceitual do banco de dados do nosso hospital. Como o
 ![image](https://github.com/DevPassosMatheus/O-Hospital-Fundamental/assets/125465372/63879381-7510-4076-a166-0b949d8d1d75)
 
 
+<h3>Modelagem lógica</h3>
+
+<p> Depois da modelagem conceitual, tudo fica mais fácil e prático, agora vamos para a modelagem lógica! A modelagem lógica nada mais é do especificar os tipos primitivos das colunas, e fazer as ligações através de chaves primárias e estrangeiras. Toda "entidade" que você fez na modelagem conceitual, agora se tornará uma tabela, os atributos, se tornarão colunas. 
+
+
+</p>
