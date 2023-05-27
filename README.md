@@ -22,7 +22,7 @@ A cardinalidade descreve a quantidade de objetos que estão relacionados entre d
 
 Abaixo, segue a modelagem conceitual do banco de dados do nosso hospital. Como o exemplo acima, você notará que a cardinalidade é de 01 para muitos, isso porque um paciente possuirá somente umn convênio, mas podem haver mais pacientes que possuem o mesmo convênio, por isso o muitos para um.
 
-![image](https://github.com/DevPassosMatheus/O-Hospital-Fundamental/assets/125465372/63879381-7510-4076-a166-0b949d8d1d75)
+![image](https://github.com/DevPassosMatheus/O-Hospital-Fundamental/assets/125465372/2d4ffbba-355e-4e58-ad68-19f9e8406621)
 
 
 <h3>Modelagem lógica</h3>
