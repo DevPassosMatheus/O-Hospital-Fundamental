@@ -22,12 +22,13 @@ A cardinalidade descreve a quantidade de objetos que estão relacionados entre d
 
 Abaixo, segue a modelagem conceitual do banco de dados do nosso hospital. Como o exemplo acima, você notará que a cardinalidade é de 01 para muitos, isso porque um paciente possuirá somente umn convênio, mas podem haver mais pacientes que possuem o mesmo convênio, por isso o muitos para um.
 
-![Untitled (1)](https://github.com/DevPassosMatheus/O-Hospital-Fundamental/assets/125465372/a4e71611-4603-4ac2-abc2-8b7c61c08963)
+![image](https://github.com/DevPassosMatheus/O-Hospital-Fundamental/assets/125465372/44577c4d-0e02-46d6-8328-e74a8ff5ac7e)
 
 <h3>Modelagem lógica</h3>
 
 <p> Depois da modelagem conceitual, tudo fica mais fácil e prático, agora vamos para a modelagem lógica! A modelagem lógica nada mais é do especificar os tipos primitivos das colunas, e fazer as ligações através de chaves primárias e estrangeiras. Toda "entidade" que você fez na modelagem conceitual, agora se tornará uma tabela, os atributos, se tornarão colunas. 
 
-![image](https://github.com/DevPassosMatheus/O-Hospital-Fundamental/assets/125465372/44577c4d-0e02-46d6-8328-e74a8ff5ac7e)
+ ![Untitled (1)](https://github.com/DevPassosMatheus/O-Hospital-Fundamental/assets/125465372/dc8beb4e-04fc-4ae2-abdc-f5976c7876d0)
+
 
 </p>
