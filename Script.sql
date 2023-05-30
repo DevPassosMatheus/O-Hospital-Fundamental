@@ -47,9 +47,7 @@ Nom_esp varchar(100)
 create table if not exists MED_ESP (
 ID_MED_ESP int(09) PRIMARY KEY not null auto_increment,
 ID_ESP int(09),
-ID_MEDC int(09),
-FOREIGN KEY (ID_ESP) references MED_ESP(ID_ESP),
-FOREIGN KEY (ID_MEDC) references MEDICOS(ID_MEDC)
+ID_MEDC int(09)
 ); 
 
 create table if not exists CONSULTAS (
@@ -78,8 +76,7 @@ dt_alta date ,
 procedimento varchar (255),
 FOREIGN KEY (ID_MEDC) references MEDICOS(ID_MEDC),
 FOREIGN KEY (ID_QUARTO) references QUARTOS(ID_QUARTO),
-FOREIGN KEY (ID_PAC) references PACIENTES(ID_PAC),
-FOREIGN KEY (ID_ENFxMED) references ENF_x_inter(ID_ENFxMED)
+FOREIGN KEY (ID_PAC) references PACIENTES(ID_PAC)
 );
 
 create table if not exists MEDICOS (
@@ -103,16 +100,13 @@ CRE varchar(08)
 create table if not exists Enf_x_inter (
 ID_ENFxMED int(09) PRIMARY KEY not null auto_increment,
 ID_INTERNACAO int(09),
-ID_ENF int(09),
-FOREIGN KEY (ID_INTERNACAO) references INTERNACOES(ID_INTERNACAO),
-FOREIGN KEY (ID_ENF) references ENFERMEIROS(ID_ENF)
+ID_ENF int(09)
 );
 
 create table if not exists QUARTOS (
 ID_QUARTO int(09) PRIMARY KEY not null auto_increment,
 ID_TipQuarto int(09),
-Num_quarto int(3),
-FOREIGN KEY (ID_TipoQuarto) references TIPO_QUARTO(ID_TipoQuarto)
+Num_quarto int(3)
 );
 
 create table if not exists TIPO_QUARTO (
